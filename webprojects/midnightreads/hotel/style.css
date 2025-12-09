@@ -1,0 +1,240 @@
+/*Author: Jordan Sindealr*/
+
+:root {
+    --primary-color: #F3ECDB;
+    /* A nice beige color for the background so its not white */
+    --secondary-color: #7F886A;
+    /* A light green to help stand out from the beige */
+    --third-color: #E07B91;
+    /* A nice pink color */
+    --fourth-color: #3E503C;
+    /* A nice deep green color for contrast*/
+    --font-family: "Quintessential", serif;
+    /* A fun font */
+}
+
+.background-color {
+    background-color: #F3ECDB;
+    /* This code will change the background of my website so it is not a plain white background */
+}
+
+
+
+.main-header {
+    font-size: 36px;
+    color: #3E503C;
+    /* A dark color for good contrast */
+    text-align: center;
+    /* Centers the header text */
+    margin: 20px 0;
+    /* Adds space above and below the header */
+    font-family: "Quintessential", serif;
+    /* Applies the font */
+    
+}
+
+
+.font-style {
+    font-family: "Quintessential", serif;
+    /* Applies the font to the text */
+    text-align: center; /*  I added this so that my text is more centered on my page.*/
+    margin: 5px; /* I wanted my text not to be hugging the edge of my page, so I added a 5 pixel margin.*/
+    color: #3E503C;
+}
+
+.sticky-nav {
+    background-color: #2c3e50;
+    /* A dark, readable color for the navigation. */
+    color: #fff;
+    /* This makes the text white so you can see it better*/
+    padding: 10px 20px;
+    /* This will add padding to create more space*/
+    position: sticky;
+    /* Makes the navigation bar stick to the top of the webpage */
+    top: 0;
+    /* This makes sure the text sticks to the top */
+    z-index: 1000;
+    /* Makes sure the navigation is on top of other content */
+    display: flex;
+    /* This will use a flexbox layout */
+    align-items: center;
+    /* This will align the items in the center */
+}
+
+body {
+    font-family: "Quintessential", serif;
+    margin: 0;
+    /* This changes the default margin to 0  */
+    padding: 0;
+    /* This changes the default padding to 0 */
+    background-color: #F3ECDB;
+        /* Ensures good contrast with dark text */
+    color: #3E503C;
+    /* Dark text so it is easier to read */
+}
+
+a {
+    color: #E07B91;
+    /* A nice pink color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    /* This makes the hover link a line to demonstrate to someone that they are hovering over the code.*/
+}
+
+h1,
+h2,
+h3 {
+    color: #2c3e50;
+    /* Dark color for headings */
+}
+
+p {
+    line-height: 1.6;
+    /* This helps make the paragragh easier to read*/
+    margin: 10px 0;
+    /* This will add space abover and below the paragragh */
+}
+
+.header2 {
+    background-color: #7F886A;
+    /* A light green color to help stand out from the beige so its easier to see */
+    color: white;
+    /* This makes the text white so its easier to read */
+    padding: 20px;
+    /* This adds padding to create more space */
+    text-align: center;
+    position: sticky;
+    top: 0%;
+    font-family: "Quintessential", serif;
+}
+
+.banner-container {
+    position: relative;
+    /* this makes sure the position is relative*/
+    text-align: center;
+    /* This will center the text on the webpage */
+    color: white;
+}
+
+.callout-box {
+    background-color: #7F886A;
+    /* A light green for the background color */
+    border-left: 5px solid #3E503C;
+    /* A deeper green color to stand out more from the light green */
+    padding: 1.5px;
+    /* I made the padding bigger that way its easier for the reader to read */
+    margin: 2px 0;
+    /* The margin creates space above the callout box and underneath it*/
+    border-radius: 5px;
+    /* Instead of square-looking corners I wanted them to be more rounded */
+    text-align: center;
+    /* I wanted the text to be in the center of the callout box */
+    font-family: "Quintessential", serif;
+    font-size: 18px;
+    /* I made the font size a little bigger so its easier to read */
+    color: white;
+    /* I made the text white so it would be easier to read */
+}
+
+.callout-box h3 {
+    margin-top: 0;
+    color: #E07B91;
+    /* A light pink color for the heading */
+}
+
+pricing-grid {
+    display: grid;
+    /* This will make sure the layout is a grid */
+    gap: 20px;
+    /* This will add space between the grid items */
+    margin: 20px 0;
+    /* This will add space above and below the grid */
+}
+
+hidden {
+    position: absolute;
+    /* This will make the position of the code absolute */
+    width: 1px;
+    /* This will make the widith 1 pixel*/
+    height: 1px;
+    /* This will make the height 1 pixel */
+    padding: 0;
+    margin: -1px;
+    /* This will make sure there is no margin */
+    overflow: hidden;
+    /* This will make sure any overflow is hidden*/
+    border: 0;
+    /* This will make sure there is no border */
+}
+
+.caption {
+    text-align: center;
+    font-weight: bold;
+    /* This will make the text bold */
+    margin-bottom: 10px;
+    /* This will add space below the caption */
+}
+
+.header4 {
+    background-color: #E07B91;
+    /* A nice pink color for the background */
+    color: white;
+    /* This will make the text white so its easier to read */
+    padding: 15px;
+    /* This will add padding to create more space */
+    text-align: center;
+    /* This will center the text */
+    font-family: "Quintessential", serif;
+    /* This will apply the chosen font */
+    margin-top: 20px;
+    /* This will add space above the header */
+}
+
+.image {
+    text-align: center;
+    /* This will center the image */
+    ;
+}
+
+.form-container {
+  max-width: 600px; /* Sets a maximum width of 600px */
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+label{
+    position: relative;
+    display:block; /* This will make sure the label is on its own line */
+    padding-bottom: 5px; /* This will add space below the label */
+    font-weight: bold; /* This will make the label bold */
+    
+}
+input{ position: relative;
+    left: 0; /* This will make sure the input is in the correct area of the webpage */
+    width: 100%;
+    margin-top: 0;
+    display: block;
+    box-sizing: border-box; /* This will ensure the padding is in the border */
+    padding: 8px;
+}
+
+.submit {
+    background-color: #E07B91;
+    /* A nice pink color for the button */
+    color: white;
+    /* This will make the text white so its easier to read */
+    border: none;
+    padding: 10px 20px;
+    /* This will add padding to create more space */
+    border-radius: 5px;
+    /* This will make the corners rounded */
+    font-size: 16px;
+    /* This will make the font size bigger */
+    width: auto;
+    position: initial; /* this changes the position to its original state*/
+ }
