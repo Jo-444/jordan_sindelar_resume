@@ -1,0 +1,129 @@
+:root {
+    /* Base Colors */
+    --midnight-reads-purple: #691fb9;
+    --midnight-reads-orange: #fd9929;
+    --spooky-bg-dark: #1c1c1c;
+    --light-color: #f5f5f5;
+}
+
+
+/* This adds an orange effect when the mouse is over the home or featured book button. This way, people know they are about to click another link.  */
+
+a.hover-link:hover {
+    color: var(--midnight-reads-orange);
+    text-decoration: none;
+
+}
+
+/* This add a orange affect when the mouse is over the home or featured book button. This way peaople know they are about to click another link. */
+
+
+a.hover-link2:hover {
+    color: var(--midnight-reads-orange);
+    text-decoration: none;
+}
+
+/* I created this code to change the background of my webpage to have a photo. This way, I do not need to have a white background. I did that by typing background-image and inserting my photo, as you can see below. I made it so the photo covers the whole website. And I attempted to make it scroll with the rest of the webpage. */
+
+body {
+    background-image: url(../img/backgroundd.JPG);
+    background-size: cover;
+    background-attachment: scroll;
+
+
+}
+
+/* This code is for the header of my webpage. I wanted my header to be centered on the website, so I did that by writing text-align then center. That way, the text is in the center. I wanted the color to be one of the oranges I have picked for my color theme, and I referred to the color from my root code. I changed the font to the font I found on Google Fonts that way it could fit the theme of the website better. I then realized that the text needed to be bigger, so I made sure to change the font size to 40px. I changed how high up the code goes by doing the last code in my text.*/
+
+.header {
+    text-align: center;
+    color: var(--midnight-reads-orange);
+    font-family: 'creepster', cursive;
+    font-size: 40px;
+    margin-top: 20px
+}
+
+/* This css code is for my paragraph I have describing my website to viewers. I needed the font to be the same as the header, so I made sure to do that first. I then made sure to size down the text to 20px so that it is not as big as the header. The color of my font is this purple color from my color scheme, and this makes sure the font changes color. I needed this text to also be aligned in the center of my website, so I did the same thing I did in the header and wrote text-align and center. I wanted to create a block like we learned about this week, so I added an orange border that is 2px. The margin code creates a space from the border that way it's bigger. The padding creates a space from the context that way it's not touching the border. I wanted my box model to have a background color, and I wanted the color to be slightly transparent. Which is what the opacity code is for. A border-radius makes the borders of my box round instead of sqaure.   */
+
+.font-style {
+    font-family: 'creepster', cursive;
+    font-size: 20px;
+    color: #691fb9;
+    text-align: center;
+    border: #fd9929 solid 2px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #1c1c1c;
+    border-radius: 10px; 
+}
+
+.font-style2 {
+    font-family: 'creepster', cursive;
+    font-size: 15px;
+    color: #691fb9;
+    text-align: center;
+    border: #fd9929 solid 2px; /* This code creates a orange border around my box that is 2px. */
+    margin: 20px; /* This code makes a space around the box. */
+    padding: 10px; /* For this code it changes the space between my content and my box. */
+    background-color: #1c1c1c; /* This code changes the background of my box black. */
+    border-radius: 10px; /* This code makes the borders of my box rounded instead of square. */
+}
+
+
+.header2 {
+    text-align: center;
+    color: #fd9929;
+    font-family: 'creepster', cursive;
+    font-size: 30px;
+    margin-top: 20px; /* This changes how high up my header will go on my webpage. */
+}
+
+
+
+.booklist {
+    font-family: 'creepster', cursive; /* This changes the font to the font I picked from Google Fonts */
+    font-size: 18px; /* This changes the size of the font to be bigger */
+    color: #fd9929; /* This changes the color of the font to one of the colors in my color scheme */
+    text-align: center; /* This centers the text in the middle of the webpage */
+    margin: 40px; /* This makes a space around the content*/
+    display: flex; /* This makes the section a flexbox */
+    justify-content: center; /* This makes the content centered on my website*/
+    flex-direction: row; /* This will make the images and text go in a row */
+
+}
+
+
+.featured-books {
+    text-align: center; /* This centers my content in my webpage*/
+    color: var(--light-color); /* This changes the color of my text to a light color so it is easier to see on my dark background */
+    font-family: 'creepster', cursive; /* This changes the font to the font I picked from Google Fonts */
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid var(--midnight-reads-orange);
+    overflow: auto;
+    /* This clears the floats within the section. */
+    border-radius: 8px;
+
+}
+
+/* I applogive for not having the time to finish writing comments for these codes. I just ran out of time.*/
+
+.amazon-link {
+    color: var(--midnight-reads-orange);
+    text-decoration: none;
+}
+
+.amazon-link:hover {
+    text-decoration: underline;
+}
+
+
+
+#footer-text {
+    text-align: center;
+    color: var(--light-color);
+    font-family: 'creepster', cursive;
+    font-size: 14px;
+    margin: 20px;
+}
