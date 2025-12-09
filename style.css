@@ -1,0 +1,186 @@
+/*Author: Jordan Sindelar class Web Site Development 1 (CIs-130-W01)*/
+body{
+    font-family: "Josefin Sans", sans-serif; /* this code changes the style of font*/
+    background-color: #fefefe; /*A white background*/
+    color: #333333; /* this changes the text color*/
+    border: solid 3px #20cfcf; /* this makes a solid border that is 3px big and a nice blue color*/
+    margin: 25px 20px; /* this code makes the top and bottom 25px and the left and right margin 20px*/
+}
+
+header{
+    background-color: #2c2c28; /* this changes the background-color*/
+    text-align: center; /*makes the text center*/
+    padding: 40px 20px; /* this means the top and bottom padding is 40px and the top and left is 20px*/
+    margin: 10px 10px; /* this changes the top and bottom 10px and the right and left 10px*/
+    
+}
+
+.h1{
+    font-family: "Mrs Saint Delafield", cursive; /* this changes the header font*/
+    color: white; /* this makes the text white*/
+    font-size: 65px; /* this makes the font size 65px*/
+}
+
+header p {
+    color: #20cfcf; /* this chnages the text color*/
+}
+
+nav {
+    background: black; /*this changes the background color*/
+    padding: 12px; /* this adds a 12px padding*/
+    text-align: center; /* this centers the text*/
+    margin: 10px 10px; /* this makes the top and bottom margin 10px and the left and right margin 10px*/
+}
+
+nav a {
+    color: white; /* this changes the text color*/
+    margin: 15px; /* this adds a 15px margin*/
+    text-decoration: underline; /* this adds an underline*/
+    font-weight: bold; /* this bolds the text*/
+
+}
+
+nav a:hover{
+     color: #20cfcf; /* this adds a blue hover*/
+}
+
+
+section{
+    padding: 50px 25px; /* this adds a 50px padding to the top and bottom and a 25px padding to the left and right*/
+    max-width: 850px; /* this makes the max width 850px*/
+    margin: 80px auto; /* this makes the marign top and bottom 80px and the left and right auto*/
+    background-color: #f5f5f5; /* this changes the background color*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* this adds a shadow the the box so it looks nicer*/
+
+}
+
+
+.photos{
+    display: flex; /* this makes the photo box a flexbox*/
+    flex-wrap: wrap; /* this makes it so the photos will wrap if need be*/
+    gap: 20px; /* this adds a 20px gap between photos*/
+    justify-content: center; /* this centers the content*/
+    margin-top: 20px; /* this will change the top margin to 20px*/
+}
+
+.photos img {
+    width: 100%; /* this makes the width 100%*/
+    max-width: 260px; /* this makes the max-width of the photos 260px*/
+    height: auto; /* this changes the hieght to auto*/
+}
+
+footer{
+    text-align: center; /* this makes the text center*/
+    background: #1f1f11; /* this changes the background color*/
+    color: white; /* this makes the text white*/
+    border: solid 2px #20cfcf; /* this adds a solid border that is 2px and blue*/
+    margin: 10px 10px; /* this makes the top and bottom margin 10px and makes the left and right margin 10px*/
+
+}
+
+.button {
+        margin: 20px 20px; /* this makes the top and bottom margin 20px and makes the left and right margin 20px*/
+        background-color: #20cfcf; /* this changes the background color*/
+        color: white; /* this makes the text white*/
+        border: solid 2px #1f1f11; /* this adds a solid border that is 2px and black*/
+        padding: 12px; /* this adds a 12px padding*/
+        font-size: 16px; /* the code changes the font size to 16px*/
+        border-radius: 6px; /* this code makes the border radius 6px*/
+}
+
+.button:hover {
+    background:#20cfcf; /* this makes the hover background blue*/
+}
+
+.header2 {
+    background-color: #1f1f11; /* this changes the background color*/
+    text-align: center; /* this aligns the text to be center*/
+    color:white;/* this makes the text white*/
+    padding: 25px; /* this adds a 25px padding*/
+    border-radius: 6px; /* this code makes the border radius 6px*/
+   margin: 40px 65px; /* this makes the top and bottom margin 40px and makes the left and right margin 65px*/
+   font-family: "Josefin Sans", sans-serif; /* this makes the font different*/
+}
+
+
+.contact {
+    padding: 50px 25px; /* this makes the top and bottom padding 50px and makes the left and right margin 25px*/
+    max-width: 850px; /* this makes the max width 850px*/
+    margin: 80px auto; /* this makes the top and bottom margin 80px and makes the left and right margin auto*/
+    background-color: #f5f5f5; /* this changes the background color*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* this adds a shadow the the box so it looks nicer*/
+}
+
+.para {
+    text-align: center; /* this makes the text center*/
+    font-size: 20px; /* this changes the font size to 20px*/
+    font-family:  "Josefin Sans", sans-serif; /* this chnages the font family*/
+    
+    
+}
+
+.forms {
+    margin-top: 15px; /* this makes the top margin to be 16px*/
+}
+
+.forms label {
+    font-weight: bold; /* this bolds the font*/
+    margin-bottom: 5px; /*this makes the margin 5px*/
+}
+
+.projects {
+    margin: 60px auto; /* this makes the top and bottom margin 60px and makes the left and right margin auto*/
+    font-weight: 300; /* this changes the font weight to be 300*/
+    text-align: center; /* this aligns the text to be center*/
+    display: block; /* this makes sure the items take up the full space*/
+    background-color: white; /* this changes the background color*/
+}
+
+.projects a:hover {
+    text-decoration: underline; /* this makes an underline under the text*/
+    background-color: #20cfcf; /* this changes the background color*/
+    color: white; /*this makes the text white*/
+
+}
+
+
+@media (min-width: 500px) {
+
+    body{
+        margin: 25px 20px; /* this makes the body margin 25px for the top and bottom and 20px for the left and right margin when the min-width is 500px*/
+    }
+
+    .h1 {
+        font-size: 65px; /* this changes the font size for 65px with the min-width 500px*/
+    }
+
+    nav {
+        flex-direction: row; /* this changes the nav bar to be a flex direction of row*/
+        justify-content: center; /* this makes the content center */
+    }
+    
+}
+
+
+
+@media (min-width: 768px) {
+    .h2 {
+        text-align: center; /* this makes the text header center*/
+    }
+
+
+}
+
+
+@media (min-width: 1000px) {
+
+    body {
+        max-width: 1200px; /* this makes the max width for the body 1200px with the wide screen setting*/
+        margin: auto auto; /* this makes the top and bottom margin auto and the left and right margin auto*/
+    }
+
+    .h1 {
+        font-size: 80px; /* this changes the font size 80px for this screen setting*/
+    }
+
+}
